@@ -1,115 +1,41 @@
-!DOCTYPE html>
+HTML
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sé Tu Propio Banco</title>
-
-<style>
-body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#111;
-    color:white;
-}
-
-.hero{
-    text-align:center;
-    padding:100px 20px;
-    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
-    url('https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1200&q=80');
-    background-size:cover;
-    background-position:center;
-}
-
-.hero h1{
-    font-size:60px;
-    color:#d4af37;
-    margin-bottom:20px;
-}
-
-.hero p{
-    font-size:22px;
-    max-width:800px;
-    margin:auto;
-}
-
-.boton{
-    display:inline-block;
-    margin-top:30px;
-    padding:15px 30px;
-    background:#d4af37;
-    color:black;
-    text-decoration:none;
-    font-weight:bold;
-    border-radius:5px;
-}
-
-.seccion{
-    max-width:1000px;
-    margin:auto;
-    padding:60px 20px;
-}
-
-.seccion h2{
-    color:#d4af37;
-    text-align:center;
-}
-
-footer{
-    text-align:center;
-    padding:30px;
-    background:#000;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puente - Oro Seguro</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<section class="hero">
-    <h1>SÉ TU PROPIO BANCO</h1>
+  <header>
+    <h1>PUENTE</h1>
+    <p>Conectamos compradores y vendedores de oro con seguridad y confianza</p>
+  </header>
 
+  <section class="hero">
+    <h2>Tu oro, tu patrimonio, tu respaldo</h2>
+    <button onclick="mostrarInfo()">Quiero saber más</button>
+  </section>
+
+  <section id="info" class="info oculto">
+    <h2>¿Qué es Puente?</h2>
     <p>
-        En un mundo en constante cambio, muchas personas buscan
-        proteger parte de su patrimonio con activos físicos.
-        El oro ha acompañado a la humanidad durante miles de años
-        y continúa siendo una referencia de valor para millones
-        de personas alrededor del mundo.
+      Puente es una plataforma que facilita la compra y venta de oro,
+      garantizando transparencia, seguridad y respaldo en cada transacción.
     </p>
+  </section>
 
-    <a class="boton" href="#">
-        Solicitar Información
-    </a>
-</section>
+  <section class="contacto">
+    <h2>Contacto</h2>
+    <p>Escríbenos para más información</p>
+  </section>
 
-<section class="seccion">
-    <h2>¿Por Qué Oro?</h2>
+  <footer>
+    <p>© 2026 Puente - Todos los derechos reservados</p>
+  </footer>
 
-    <p>
-        A lo largo de la historia, las monedas, gobiernos y sistemas
-        económicos han cambiado. El oro ha permanecido como uno de los
-        activos físicos más reconocidos y valorados del planeta.
-    </p>
-
-    <p>
-        Nuestro objetivo es ofrecer lingotes de oro físico a personas
-        interesadas en diversificar y proteger parte de su patrimonio.
-    </p>
-</section>
-
-<section class="seccion">
-    <h2>Nuestro Enfoque</h2>
-
-    <p>
-        Creemos que la educación es el primer paso antes de cualquier
-        compra. Por eso compartimos información sobre el oro, su historia
-        y su papel dentro de una estrategia de patrimonio a largo plazo.
-    </p>
-</section>
-
-<footer>
-    © 2026 - Sé Tu Propio Banco
-</footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
